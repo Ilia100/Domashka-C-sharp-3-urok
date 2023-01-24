@@ -25,7 +25,7 @@ int GetNumber(string message)
 
 void poli(int x)
 {
-    if ((x / 10000 == x % 10) && ((x / 1000 - (x / 10000) * 10) == (x % 100) / 10))
+    if ((x / 10000 == x % 10) && (x / 1000 % 10 == x % 100 / 10))
     {
         Console.WriteLine("это полиндром");
     }
