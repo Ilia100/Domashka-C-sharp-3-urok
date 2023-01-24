@@ -36,4 +36,4 @@ int bx = getCoordFromUser("Enter x coordinate of the second point");
 int by = getCoordFromUser("Enter y coordinate of the second point");
 
 double distance = getDistance(ax, ay, bx, by);
-Console.WriteLine($"Distance betwin ({ax},{ay}) and ({bx},{by}) is {distance}");
+Console.WriteLine($"Distance betwin ({ax},{ay}) and ({bx},{by}) is {distance:f2}");
